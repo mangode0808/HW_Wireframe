@@ -1,0 +1,138 @@
+body {
+    background-image: url("http://kb4images.com/images/pattern-wallpapers/38095117-pattern-wallpapers.jpg");
+        background-color: white;
+}
+header {
+    background-color:rgb(255, 255, 255);
+    width:100%;
+    font-size: 22px;
+    margin: 0px;
+    border-inline-start-color: black;
+    border-color: black;
+    padding: 0px;
+}
+
+h1 {
+color: white;  
+background-color: rgb(31, 151, 99);
+float: left;
+margin: 0px;
+margin-left: 80px;
+padding: 25px;
+font-size: 30px;
+border: black;
+}
+
+nav {
+float:right;
+}
+
+header::after {
+content:'';
+display: table;
+clear:both;
+}
+
+nav ul {
+margin:0;
+padding:0;
+list-style:none;
+}
+
+nav li{
+display:inline-block;
+margin-left: 10px;
+padding-top:25px;
+margin-right:100px;
+}
+
+nav a {
+color:#32333352;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 16px;
+}
+
+body {
+    background-color: rgb(244, 242, 235);
+    margin: o;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 30px;
+    border-color: black;
+    margin-left: 20px;
+}
+
+.box {
+    width: 650px;
+    height: 400px;
+    background-color: white;
+    margin-right: 137px;
+    margin-top: 50px;
+    float: right;
+    }
+
+a {
+    color:rgb(19, 173, 114);
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+    float: left;
+}
+
+#main-bio {
+    width: 65%;
+}
+
+#contact-info {
+    width: 310px;
+    height: 280px;
+    background-color: white;
+    text-align: auto;
+    margin-top: 70px;
+    float: left;
+    border: 2px rgb(52, 80, 78);
+
+}
+
+#bio-image{
+    margin-top:0px;
+    margin-right: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+.clearfix:after{
+    content: Copyright;
+    display: blocks;
+    clear: both;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: rgb(73, 206, 166);
+}
+
